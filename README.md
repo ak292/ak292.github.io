@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React Portfolio Website
 
 This is a simple and clean portfolio website made with React, to showcase my CV/Projects in a visual manner.
 
