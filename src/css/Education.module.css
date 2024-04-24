@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px !important;
+  margin: auto;
+  margin-left: 50px;
+  align-items: left;
+  justify-content: left;
+}
+
+span {
+  font-weight: bold;
+  color: black;
+}
+
+.courses {
+  width: 500px;
+}
+
+.bsc {
+  color: #343a40;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.uni {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #868e96;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #868e96;
+}
+
+.container-two {
+  display: flex;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 20px;
+}
+
+.education {
+  margin-left: 50px !important;
+  font-size: 50px;
+  font-weight: bold;
+  color: #343a40;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.date-container {
+  display: flex;
+  align-items: center;
+  gap: 800px;
+}
+
+.date-para {
+  color: #2471a3;
+  font-weight: bold;
+}

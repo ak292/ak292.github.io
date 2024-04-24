@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+}
+
+.projects-text {
+  font-size: 50px;
+  font-weight: bold;
+  color: #343a40;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.discord-bot {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+#git {
+  width: 30px;
+}
+
+.info-para,
+.li-para {
+  width: 1300px;
+}
+
+.info-para {
+  margin-top: 5px;
+}
+
+.bot-para {
+  font-weight: bold;
+}
+
+.github-para {
+  width: 800px;
+}
+
+.gitcontainer {
+  display: flex;
+  gap: 30px;
+}
+
+#link {
+  margin: 0;
+}
+
+.linkparacontainer {
+  display: flex;
+  gap: 10px;
+}
+
+hr {
+  border: 1px solid #000; /* Change #000 to the color you want */
+}
