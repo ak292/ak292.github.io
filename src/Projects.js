@@ -128,14 +128,14 @@ function Projects() {
         </div>
         <hr width="100%" />
         <div className={styles["discord-bot"]}>
-          <h3>Discord Management Bot (Graduation Project)</h3>
+          <h3>React.js Social Media Website</h3>
           <p>
-            <span>Technologies used: </span>JavaScript, NodeJS, Discord.js, CSV
-            Parsing/Text processing, FileTransfer Browser API, HTML, CSS
+            <span>Technologies used: </span> React.js (hooks, context, reducers
+            etc.), Node.js, MongoDB Atlas, JavaScript, HTML, CSS
           </p>
           <div className={styles.gitcontainer}>
             <a
-              href="https://github.com/ak292/discord-management-bot"
+              href="https://github.com/ak292/"
               target="_blank"
               rel="noreferrer"
             >
@@ -147,22 +147,12 @@ function Projects() {
             </a>
 
             <p className={styles["github-para"]}>
-              GitHub repo contains GIFs and images of the bot in action if you'd
-              like to see a demo.
+              Repo and website will be up soon!
             </p>
           </div>
           <p className={styles["info-para"]}>
-            This is a Discord bot created to help manage the University of
-            Portsmouth official Discord server.{" "}
-            <span className={styles["bot-para"]}>
-              The bot was deployed in the official UoP server and saved
-              University staff tens of hours per year.
-            </span>{" "}
-            It was created as the software artefact of my final year graduation
-            project as a Computer Science student at the University of
-            Portsmouth. The bot has many functionalities built in to help manage
-            the official University of Portsmouth Discord server (which has
-            thousands of members) including:
+            Created a social media clone website where users can sign up, login,
+            make posts and comments, like posts, and follow one another
           </p>
         </div>
       </div>
