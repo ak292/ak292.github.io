@@ -34,7 +34,7 @@ function About() {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1cKwH3MuVsSQbKj6yBWCX1wASCf5iAVQQ/view"
+            href="https://drive.google.com/file/d/1Yd2U-eRU-xaXMKps2iQfjAVe1-u0G9lG/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="alink"
