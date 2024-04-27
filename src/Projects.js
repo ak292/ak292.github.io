@@ -152,7 +152,35 @@ function Projects() {
           </div>
           <p className={styles["info-para"]}>
             Created a social media clone website where users can sign up, login,
-            make posts and comments, like posts, and follow one another
+            make posts and comments, like posts, and follow one another Created
+            a social media clone website where users can sign up, login, make
+            posts and comments, like posts, and follow one another Created a
+            social media clone website where users can sign up, login, make
+            posts and comments, like posts, and follow one another Created a
+            social media clone website where users can sign up, login, make
+            posts and comments, like posts, and follow one another Created a
+            social media clone website where users can sign up, login, make
+            posts and comments, like posts, and follow one another Created a
+            social media clone website where users can sign up, login, make
+            posts and comments, like posts, and follow one another Created a
+            social media clone website where users can sign up, login, make
+            posts and comments, like posts, and follow one another Created a
+            social media clone website where users can sign up, login, make
+            posts and comments, like posts, and follow one another comments,
+            like posts, and follow one another Created a social media clone
+            website where users can sign up, login, make posts and comments,
+            like posts, and follow one another Created a social media clone
+            website where users can sign up, login, make posts and comments,
+            like posts, and follow one another Created a social media clone
+            website where users can sign up, login, make posts and comments,
+            like posts, and follow one another comments, like posts, and follow
+            one another Created a social media clone website where users can
+            sign up, login, make posts and comments, like posts, and follow one
+            another Created a social media clone website where users can sign
+            up, login, make posts and comments, like posts, and follow one
+            another Created a social media clone website where users can sign
+            up, login, make posts and comments, like posts, and follow one
+            another
           </p>
         </div>
       </div>

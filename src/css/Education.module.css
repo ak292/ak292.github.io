@@ -51,6 +51,8 @@ p {
   justify-content: center;
   /* align-items: center; */
   gap: 20px;
+  margin-left: 250px;
+  height: 100vh;
 }
 
 .education {

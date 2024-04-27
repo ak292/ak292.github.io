@@ -20,7 +20,7 @@
 .container-two {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 300px;
 }
 
 #git {
@@ -59,5 +59,5 @@
 }
 
 hr {
-  border: 1px solid #000; /* Change #000 to the color you want */
+  border: 1px solid #000;
 }
