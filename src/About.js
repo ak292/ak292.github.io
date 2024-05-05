@@ -12,33 +12,20 @@ function About() {
           </p>
           <p className="job-title">Software Developer</p>
           <p className="location">
-            Toronto, Canada -{" "}
-            <span className="email">ahmedkeshkaap@gmail.com</span>
+            Toronto, Canada - <span className="email">ahmedkeshkaap@gmail.com</span>
           </p>
         </div>
-        <div className="intro-paragraph">
-          I'm a Computer Science graduate who is passionate about all things
-          related to Web Development and Machine Learning.
-        </div>
+        <div className="intro-paragraph">I'm a Computer Science graduate who is passionate about all things related to Web Development and Machine Learning.</div>
         <div className="buttons-container">
           <div className="icons-container">
-            <a
-              href="https://linkedin.com/in/ahmed-keshka"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://linkedin.com/in/ahmed-keshka" target="_blank" rel="noreferrer">
               <i className="icons fa-brands fa-3x fa-linkedin"></i>
             </a>
             <a href="https://github.com/ak292" target="_blank" rel="noreferrer">
               <i className="icons fa-brands fa-3x fa-github"></i>
             </a>
           </div>
-          <a
-            href="https://drive.google.com/file/d/1Yd2U-eRU-xaXMKps2iQfjAVe1-u0G9lG/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-            className="alink"
-          >
+          <a href="https://drive.google.com/file/d/1Q0T61DiUtAt0HNAI0EZzevaGaxVo8-p4/view?usp=sharing" target="_blank" rel="noreferrer" className="alink">
             <button>View my CV </button>
           </a>
         </div>

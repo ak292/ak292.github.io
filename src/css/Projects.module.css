@@ -29,11 +29,15 @@
 
 .info-para,
 .li-para {
-  width: 1300px;
+  width: 1400px;
 }
 
-.info-para {
+/* .info-para {
   margin-top: 5px;
+} */
+
+.ul-list {
+  margin-top: 0;
 }
 
 .bot-para {
