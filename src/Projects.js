@@ -38,7 +38,7 @@ function Projects() {
         </div>
         <hr width="100%" />
         <div className={styles["discord-bot"]}>
-          <h3>React.js Social Web App</h3>
+          <h3>React.js Social Media Web Application</h3>
           <p>
             <span>Technologies used: </span> React.js (hooks, context, reducers, React Suspense, etc.), Node.js, MongoDB Atlas, LocalStorage, Socket.io, Webpack, JavaScript, HTML, CSS
           </p>
