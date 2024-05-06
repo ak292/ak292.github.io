@@ -23,7 +23,7 @@ function Projects() {
                 {" "}
                 <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
               </a>
-              <p className={styles["github-para"]}>GitHub repo contains GIFs and images of the bot in action if you'd like to see a demo.</p>
+              <p className={styles["github-para"]}>README file in GitHub repo contains GIFs and images of the bot in action if you'd like to see a demo.</p>
             </div>
           </div>
 

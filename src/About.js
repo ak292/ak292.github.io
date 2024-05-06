@@ -25,7 +25,7 @@ function About() {
               <i className="icons fa-brands fa-3x fa-github"></i>
             </a>
           </div>
-          <a href="https://drive.google.com/file/d/1H0X5uvTndA-lGnn_jsxnG569YOSI4ZcR/view?usp=sharing" target="_blank" rel="noreferrer" className="alink">
+          <a href="https://drive.google.com/file/d/1g6wpCHN8adpJU3LEI_pSApfKfLL3274K/view?usp=sharing" target="_blank" rel="noreferrer" className="alink">
             <button>View my CV </button>
           </a>
         </div>
