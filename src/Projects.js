@@ -38,7 +38,7 @@ function Projects() {
         </div>
         <hr width="100%" />
         <div className={styles["discord-bot"]}>
-          <h3>React.js Social Media Website</h3>
+          <h3>React.js Social Web App</h3>
           <p>
             <span>Technologies used: </span> React.js (hooks, context, reducers, React Suspense, etc.), Node.js, MongoDB Atlas, LocalStorage, Socket.io, Webpack, JavaScript, HTML, CSS
           </p>
@@ -53,13 +53,13 @@ function Projects() {
                 <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
               </a>
               <p className={styles["link-para"]}>
-                Check out the website! <b>Please note: still a work in progress so website is yet to be deployed.</b>
+                Check out the web app! <b>Please note: still a work in progress so website is yet to be deployed.</b>
               </p>
             </div>
           </div>
-          <p className={styles["info-para"]}>This is a social media website created with React. It allows users to sign up, login, make posts and comments, like posts and comments, and follow other people (to customize their newsfeed).</p>
+          <p className={styles["info-para"]}>This is a social media web app created with React. It allows users to sign up, login, make posts and comments, like posts and comments, and follow other people (to customize their newsfeed).</p>
           <ul className={styles["ul-list"]}>
-            <li className={styles["li-para"]}>Website communicates with a real-world backend API created with Node.js and Express.js using Axios and renders the data dynamically.</li>
+            <li className={styles["li-para"]}>Web app communicates with a real-world backend API created with Node.js and Express.js using Axios and renders the data dynamically.</li>
             <li className={styles["li-para"]}>Uses LocalStorage to store JWT token information, usernames, avatars, so users can remain logged in when they first sign in.</li>
             <li className={styles["li-para"]}>Socket.io was used for a live chat feature enabling users to communicate in real time.</li>
             <li className={styles["li-para"]}>MongoDB Atlas was used as a Cloud Database for storing user information</li>
