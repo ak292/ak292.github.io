@@ -11,14 +11,14 @@ function Education() {
           <div className={styles["education-container"]}>
             <div className={styles["date-container"]}>
               <div>
-                <h1 className={styles.bsc}>MSc Data Science & Analytics</h1>
-                <h1 className={styles.uni}>Toronto Metropolitan University | Toronto, Canada</h1>
-                <p>Expected to start in September 2024</p>
+                <h1 className={styles.bsc}>Master of Interdisciplinary Applied Artificial Intelligence</h1>
+                <h1 className={styles.uni}>University of Ottawa | Ottawa, Canada</h1>
+                <p>Accepted into the program and expected to start in September 2024</p>
                 <p className={styles.courses}>
-                  <span>Relevant Courses:</span> Machine Learning, Management of Big Data and Big Data Tools, Design of Algorithms and Programming for Massive Data, Data Mining and Prescriptive Analytics
+                  <span>Relevant Courses:</span> Foundations and Applications of Machine Learning, Essential Concepts in Data Science, System Optimization and Management
                 </p>
               </div>
-              <p className={styles["date-para"]}>September 2024 - September 2025</p>
+              <p className={styles["date-para"]}>September 2024 - September 2026</p>
             </div>
           </div>
         </div>
