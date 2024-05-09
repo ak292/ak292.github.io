@@ -11,7 +11,7 @@ function Education() {
           <div className={styles["education-container"]}>
             <div className={styles["date-container"]}>
               <div>
-                <h1 className={styles.bsc}>Master of Interdisciplinary Applied Artificial Intelligence</h1>
+                <h1 className={styles.bsc}>Master of Applied Artificial Intelligence</h1>
                 <h1 className={styles.uni}>University of Ottawa | Ottawa, Canada</h1>
                 <p>Accepted into the program and expected to start in September 2024</p>
                 <p className={styles.courses}>
