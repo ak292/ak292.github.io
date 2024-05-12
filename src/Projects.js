@@ -36,35 +36,6 @@ function Projects() {
             <li className={styles["li-para"]}>Bot also comes with a dashboard created with Node & Express to allow the client to input any neccessary CSV files to the bot and to toggle certain features such as security mode (a mode that allows the client to input a security question upon verification) on or off.</li>
           </ul>
         </div>
-        <hr width="100%" />
-        <div className={styles["discord-bot"]}>
-          <h3>React.js Social Media Web Application</h3>
-          <p>
-            <span>Technologies used: </span> React.js (hooks, context, reducers, React Suspense, etc.), Node.js, MongoDB Atlas, LocalStorage, Socket.io, Webpack, JavaScript, HTML, CSS
-          </p>
-          <div className={styles.gitcontainer}>
-            <a href="https://github.com/ak292/react-social-media-site" target="_blank" rel="noreferrer">
-              {" "}
-              <i id={styles.git} className="icons fa-brands fa-3x fa-github"></i>
-            </a>
-            <div className={styles.linkparacontainer}>
-              <a href="https://github.com/ak292/react-social-media-site" target="_blank" rel="noreferrer">
-                {" "}
-                <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
-              </a>
-              <p className={styles["link-para"]}>
-                Check out the web app! <b>Please note: still a work in progress so website is yet to be deployed.</b>
-              </p>
-            </div>
-          </div>
-          <p className={styles["info-para"]}>This is a social media web app created with React. It allows users to sign up, login, make posts and comments, like posts and comments, and follow other people (to customize their newsfeed).</p>
-          <ul className={styles["ul-list"]}>
-            <li className={styles["li-para"]}>Web app communicates with a real-world backend API created with Node.js and Express.js using Axios and renders the data dynamically.</li>
-            <li className={styles["li-para"]}>Uses LocalStorage to store JWT token information, usernames, avatars, so users can remain logged in when they first sign in.</li>
-            <li className={styles["li-para"]}>Socket.io was used for a live chat feature enabling users to communicate in real time.</li>
-            <li className={styles["li-para"]}>MongoDB Atlas was used as a Cloud Database for storing user information</li>
-          </ul>
-        </div>
 
         <hr width="100%" />
         <div className={styles["discord-bot"]}>
@@ -93,6 +64,37 @@ function Projects() {
             <li className={styles["li-para"]}>"Play Again" feature that allows user to play as many times as they want with a random word selected each time.</li>
             <li className={styles["li-para"]}>Users are allowed to submit their own words to be used in a game of Wordle given that it is a 5 letter valid dictionary word.</li>
             <li className={styles["li-para"]}>Added a QoL feature that allows users to click on a letter in the word to edit it instead of having to delete the entire word.</li>
+          </ul>
+        </div>
+
+        <hr width="100%" />
+
+        <div className={styles["discord-bot"]}>
+          <h3>React.js Social Media Web Application</h3>
+          <p>
+            <span>Technologies used: </span> React.js (hooks, context, reducers, React Suspense, etc.), Node.js, MongoDB Atlas, LocalStorage, Socket.io, Webpack, JavaScript, HTML, CSS
+          </p>
+          <div className={styles.gitcontainer}>
+            <a href="https://github.com/ak292/react-social-media-site" target="_blank" rel="noreferrer">
+              {" "}
+              <i id={styles.git} className="icons fa-brands fa-3x fa-github"></i>
+            </a>
+            <div className={styles.linkparacontainer}>
+              <a href="https://profound-figolla-298d5f.netlify.app/" target="_blank" rel="noreferrer">
+                {" "}
+                <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
+              </a>
+              <p className={styles["link-para"]}>Check out the web app! Backend uses free hosting which takes time to run due to inactivity.</p>
+            </div>
+          </div>
+          <p className={styles["info-para"]}>
+            This is a social media web app created with React. It allows users to sign up, login, make posts and comments, like posts and comments, and follow other people (to customize their newsfeed). <b>Please note:</b> This web application was built as part of an online React.js course I took while learning React.
+          </p>
+          <ul className={styles["ul-list"]}>
+            <li className={styles["li-para"]}>Web app communicates with a real-world backend API created with Node.js and Express.js using Axios and renders the data dynamically.</li>
+            <li className={styles["li-para"]}>Uses LocalStorage to store JWT token information, usernames, avatars, so users can remain logged in when they first sign in.</li>
+            <li className={styles["li-para"]}>Socket.io was used for a live chat feature enabling users to communicate in real time.</li>
+            <li className={styles["li-para"]}>MongoDB Atlas was used as a Cloud Database for storing user information</li>
           </ul>
         </div>
       </div>
