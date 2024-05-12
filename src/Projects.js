@@ -75,7 +75,7 @@ function Projects() {
             <span>Technologies used: </span> React.js (hooks, context, reducers, React Suspense, etc.), Node.js, MongoDB Atlas, LocalStorage, Socket.io, Webpack, JavaScript, HTML, CSS
           </p>
           <div className={styles.gitcontainer}>
-            <a href="https://github.com/ak292/react-social-media-site" target="_blank" rel="noreferrer">
+            <a href="https://github.com/ak292/react-social-media-web-app" target="_blank" rel="noreferrer">
               {" "}
               <i id={styles.git} className="icons fa-brands fa-3x fa-github"></i>
             </a>
