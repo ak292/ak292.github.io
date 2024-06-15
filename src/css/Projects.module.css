@@ -30,6 +30,7 @@
 .info-para,
 .li-para {
   width: 1400px;
+  margin: 15px;
 }
 
 /* .info-para {
@@ -64,4 +65,37 @@
 
 hr {
   border: 1px solid #000;
+}
+
+.hidden-info {
+  display: none;
+}
+
+.hidden-more-info {
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 20px;
+  margin-left: 0;
+  width: 1420px;
+}
+
+.hidden-more-info:hover {
+  cursor: pointer;
+  border: 2px solid #0788c4;
+}
+
+.para-hidden {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+#dropicon {
+  margin-right: 7px;
+}
+
+.visible {
+  display: block;
 }
