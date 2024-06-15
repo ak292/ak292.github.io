@@ -4,7 +4,7 @@ import styles from "./css/Projects.module.css";
 
 function Projects() {
   const [projectStates, setProjectStates] = useState({
-    firstProject: false,
+    firstProject: true,
     secondProject: false,
     thirdProject: false,
   });
