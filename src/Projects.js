@@ -131,7 +131,7 @@ function Projects() {
               <i id={styles.git} className="icons fa-brands fa-3x fa-github"></i>
             </a>
             <div className={styles.linkparacontainer}>
-              <a href="https://profound-figolla-298d5f.netlify.app/" target="_blank" rel="noreferrer">
+              <a href="https://master--deluxe-horse-c91768.netlify.app/" target="_blank" rel="noreferrer">
                 {" "}
                 <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
               </a>
