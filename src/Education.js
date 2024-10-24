@@ -11,10 +11,13 @@ function Education() {
           <div className={styles["education-container"]}>
             <div className={styles["date-container"]}>
               <div>
-                <h1 className={styles.bsc}>Master of Interdisciplinary Applied Artificial Intelligence</h1>
+                <h1 className={styles.bsc}>
+                  Master of Interdisciplinary Applied Artificial Intelligence
+                </h1>
                 <h1 className={styles.uni}>University of Ottawa | Ottawa, Canada</h1>
                 <p className={styles.courses}>
-                  <span>Relevant Courses:</span> Foundations and Applications of Machine Learning, Essential Concepts in Data Science, System Optimization and Management
+                  <span>Relevant Courses:</span> Foundations and Applications of Machine Learning,
+                  Essential Concepts in Data Science, System Optimization and Management
                 </p>
               </div>
               <p className={styles["date-para"]}>September 2024 - May 2026</p>
@@ -30,7 +33,10 @@ function Education() {
                 <h1 className={styles.uni}>University of Portsmouth | Portsmouth, UK</h1>
                 <p>Grade: Upper Second Class Honours (B+ equivalent)</p>
                 <p className={styles.courses}>
-                  <span>Relevant Courses:</span> Web Programming, Enterprise Web Programming, Data Structures & Algorithms, Practical Data Analytics & Mining, Distributed Systems & Security, Discrete Mathematics & Functional Programming, Theoretical Computer Science
+                  <span>Relevant Courses:</span> Web Programming, Enterprise Web Programming, Data
+                  Structures & Algorithms, Practical Data Analytics & Mining, Distributed Systems &
+                  Security, Discrete Mathematics & Functional Programming, Theoretical Computer
+                  Science
                 </p>
               </div>
               <p className={styles["date-para"]}>September 2020 - July 2023</p>
