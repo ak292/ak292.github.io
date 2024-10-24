@@ -15,19 +15,19 @@ function Projects() {
       case "first-div":
         setProjectStates((prevStates) => ({
           ...prevStates,
-          firstProject: !prevStates.firstProject, // Toggle firstProject
+          firstProject: !prevStates.firstProject,
         }));
         break;
       case "second-div":
         setProjectStates((prevStates) => ({
           ...prevStates,
-          secondProject: !prevStates.secondProject, // Toggle secondProject
+          secondProject: !prevStates.secondProject,
         }));
         break;
       case "third-div":
         setProjectStates((prevStates) => ({
           ...prevStates,
-          thirdProject: !prevStates.thirdProject, // Toggle thirdProject
+          thirdProject: !prevStates.thirdProject,
         }));
         break;
       default:
@@ -134,7 +134,7 @@ function Projects() {
               </a>
               <p className={styles["link-para"]}>
                 Play the game for yourself! Backend uses free hosting so the website will take some
-                time to load initially.
+                time to load (~30 seconds) initially.
               </p>
             </div>
           </div>
