@@ -4,7 +4,7 @@ import styles from "./css/Projects.module.css";
 
 function Projects() {
   const [projectStates, setProjectStates] = useState({
-    firstProject: true,
+    firstProject: false,
     secondProject: false,
     thirdProject: false,
   });
@@ -128,15 +128,14 @@ function Projects() {
               <i id={styles.git} className="icons fa-brands fa-3x fa-github"></i>
             </a>
             <div className={styles.linkparacontainer}>
-              <a
-                href="https://a-better-wordle-production.up.railway.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://a-better-wordle.onrender.com" target="_blank" rel="noreferrer">
                 {" "}
                 <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
               </a>
-              <p className={styles["link-para"]}>Play the game for yourself!</p>
+              <p className={styles["link-para"]}>
+                Play the game for yourself! Backend uses free hosting which takes time to run due to
+                inactivity.
+              </p>
             </div>
           </div>
 
