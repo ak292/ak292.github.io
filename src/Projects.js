@@ -133,8 +133,8 @@ function Projects() {
                 <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
               </a>
               <p className={styles["link-para"]}>
-                Play the game for yourself! Backend uses free hosting which takes time to run due to
-                inactivity.
+                Play the game for yourself! Backend uses free hosting so the website will take some
+                time to load initially.
               </p>
             </div>
           </div>
@@ -204,8 +204,8 @@ function Projects() {
                 <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
               </a>
               <p className={styles["link-para"]}>
-                Check out the web app! Backend uses free hosting which takes time to run due to
-                inactivity.
+                Check out the web app! Backend uses free hosting so the website will take some time
+                to load (~30 seconds) initially.
               </p>
             </div>
           </div>
