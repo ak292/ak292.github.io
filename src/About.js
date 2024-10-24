@@ -15,7 +15,10 @@ function About() {
             Toronto, Canada - <span className="email">ahmedkeshkaap@gmail.com</span>
           </p>
         </div>
-        <div className="intro-paragraph">I'm a Computer Science graduate who is passionate about all things related to Web Development and Machine Learning.</div>
+        <div className="intro-paragraph">
+          I'm a Computer Science graduate who is passionate about all things related to Web
+          Development and Machine Learning.
+        </div>
         <div className="buttons-container">
           <div className="icons-container">
             <a href="https://linkedin.com/in/ahmed-keshka" target="_blank" rel="noreferrer">
@@ -25,7 +28,12 @@ function About() {
               <i className="icons fa-brands fa-3x fa-github"></i>
             </a>
           </div>
-          <a href="https://drive.google.com/file/d/1jHLqpgeD8cZH0TbZfq3m-HtROFwvfzFu/view?usp=sharing" target="_blank" rel="noreferrer" className="alink">
+          <a
+            href="https://drive.google.com/file/d/1PSEESvYxpZGsOWB3rlCnIyVixo8VOrC0/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="alink"
+          >
             <button>View my CV </button>
           </a>
         </div>
