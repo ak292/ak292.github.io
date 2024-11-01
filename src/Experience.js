@@ -21,8 +21,8 @@ function Experience() {
                   from an API
                 </li>
                 <li>
-                  Integrated advanced search and filter features to enhance user experience and
-                  improve site usability
+                  Integrated advanced search and filter features and animations/page transitions
+                  using GSAP to enhance user experience and improve site usability
                 </li>
               </ul>
               <p className={styles["date-para"]}>December 2023 - April 2024</p>
