@@ -1,7 +1,6 @@
 .container {
   display: flex;
 }
-
 .container-two {
   display: flex;
   flex-direction: column;
@@ -43,6 +42,12 @@ h3 {
   align-items: center;
 }
 
+.container-four {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .date-para {
   color: #2471a3;
   font-weight: bold;
@@ -50,4 +55,8 @@ h3 {
 
 .alink {
   width: 50px;
+}
+
+.ul-text {
+  width: 1150px;
 }

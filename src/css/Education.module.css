@@ -75,4 +75,6 @@ p {
 .date-para {
   color: #2471a3;
   font-weight: bold;
+  position: fixed;
+  margin-left: 1300px;
 }
