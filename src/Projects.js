@@ -7,6 +7,7 @@ function Projects() {
     firstProject: false,
     secondProject: false,
     thirdProject: false,
+    fourthProject: false,
   });
 
   const handleClick = (e) => {
@@ -28,6 +29,12 @@ function Projects() {
         setProjectStates((prevStates) => ({
           ...prevStates,
           thirdProject: !prevStates.thirdProject,
+        }));
+        break;
+      case "fourth-div":
+        setProjectStates((prevStates) => ({
+          ...prevStates,
+          fourthProject: !prevStates.fourthProject,
         }));
         break;
       default:
@@ -225,8 +232,7 @@ function Projects() {
               <p className={styles["info-para"]}>
                 This is a social media web app created with React. It allows users to sign up,
                 login, make posts and comments, like posts and comments, and follow other people (to
-                customize their newsfeed). <b>Please note:</b> This web application was built as
-                part of an online React.js course I took while learning React.
+                customize their newsfeed).
               </p>
               <ul className={styles["ul-list"]}>
                 <li className={styles["li-para"]}>
@@ -243,6 +249,71 @@ function Projects() {
                 </li>
                 <li className={styles["li-para"]}>
                   MongoDB Atlas was used as a Cloud Database for storing user information
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className={styles["discord-bot"]}>
+          <h3>Wordle Solver (Chrome Extension)</h3>
+          <p>
+            <span>Technologies used: </span>Chrome APIs (webRequest, storage), content scripts,
+            background scripts, JavaScript, HTML, CSS
+          </p>
+          <div className={styles.gitcontainer}>
+            <a
+              href="https://github.com/ak292/wordle-solver-extension"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <i id={styles.git} className="icons fa-brands fa-3x fa-github"></i>
+            </a>
+            <div className={styles.linkparacontainer}>
+              <a
+                href="https://github.com/ak292/wordle-solver-extension/blob/main/README.md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
+              </a>
+              <p className={styles["github-para"]}>
+                README file in GitHub repo contains GIF showcasing the Chrome Extension &
+                instructions on how to install it.
+              </p>
+            </div>
+          </div>
+
+          <div id="fourth-div" onClick={handleClick} className={styles["hidden-more-info"]}>
+            <p className={styles["para-hidden"]}>
+              <i
+                id={styles.dropicon}
+                class={
+                  projectStates.fourthProject ? "fa-solid fa-caret-down" : "fa-solid fa-caret-right"
+                }
+              ></i>
+              Click for more info!
+            </p>
+
+            <div className={projectStates.fourthProject ? styles.visible : styles["hidden-info"]}>
+              <p className={styles["info-para"]}>
+                Created a Wordle solver Chrome Extension that will automatically solve your Wordle
+                game at the press of a button (you can take your hands off the mouse & keyboard as
+                it clicks the play button and gets past any notifications and types the word for
+                you).
+              </p>
+              <ul className={styles["ul-list"]}>
+                <li className={styles["li-para"]}>
+                  This project was done purely for fun and to get more experience with Chrome APIs
+                  (webRequest, storage) as well as content scripts and background scripts.
+                </li>
+                <li className={styles["li-para"]}>
+                  The extension is able to figure out the daily word to guess by intercepting the
+                  network requests and fetching the content from the JSON file that contains the
+                  daily word using a background script that runs on the Chrome Extension. It then
+                  passes the word to the content script which presses play and types the word for
+                  you using simple DOM manipulation.
                 </li>
               </ul>
             </div>
