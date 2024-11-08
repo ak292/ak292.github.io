@@ -8,6 +8,7 @@ function Projects() {
     secondProject: false,
     thirdProject: false,
     fourthProject: false,
+    fifthProject: false,
   });
 
   const handleClick = (e) => {
@@ -35,6 +36,12 @@ function Projects() {
         setProjectStates((prevStates) => ({
           ...prevStates,
           fourthProject: !prevStates.fourthProject,
+        }));
+        break;
+      case "fifth-div":
+        setProjectStates((prevStates) => ({
+          ...prevStates,
+          fifthProject: !prevStates.fifthProject,
         }));
         break;
       default:
@@ -254,6 +261,66 @@ function Projects() {
             </div>
           </div>
         </div>
+
+        <div className={styles["discord-bot"]}>
+          <h3>Chat to Journal Web Application</h3>
+          <p>
+            <span>Technologies used: </span> JavaScript, NodeJS/Express, Multer (File uploads)
+            OpenAPI (LLMs)
+          </p>
+          <div className={styles.gitcontainer}>
+            <a href="https://github.com/ak292/chat-to-journal" target="_blank" rel="noreferrer">
+              {" "}
+              <i id={styles.git} className="icons fa-brands fa-3x fa-github"></i>
+            </a>
+            <div className={styles.linkparacontainer}>
+              <a href="https://chat-to-journal.onrender.com/" target="_blank" rel="noreferrer">
+                {" "}
+                <i id={styles.link} className="icons fa-solid fa-3x fa-link"></i>
+              </a>
+              <p className={styles["link-para"]}>
+                Check out the web app! Backend uses free hosting so the website will take some time
+                to load (~30 seconds) initially.
+              </p>
+            </div>
+          </div>
+
+          <div id="fifth-div" onClick={handleClick} className={styles["hidden-more-info"]}>
+            <p className={styles["para-hidden"]}>
+              <i
+                id={styles.dropicon}
+                class={
+                  projectStates.fifthProject ? "fa-solid fa-caret-down" : "fa-solid fa-caret-right"
+                }
+              ></i>
+              Click for more info!
+            </p>
+
+            <div className={projectStates.fifthProject ? styles.visible : styles["hidden-info"]}>
+              <p className={styles["info-para"]}>
+                Created a web app that allows you to upload your WhatsApp and Messenger messages in
+                text format and convert them into timestamped journal entries using the power of
+                LLMs! Simply select your message file, and we’ll help you document your thoughts and
+                conversations!
+              </p>
+              <ul className={styles["ul-list"]}>
+                <li className={styles["li-para"]}>
+                  Web app makes use of OpenAPI to access LLMs that analyze the messages input by the
+                  user
+                </li>
+                <li className={styles["li-para"]}>
+                  Uses LocalStorage to store journal entries of user and load them upon visiting
+                  webpage
+                </li>
+                <li className={styles["li-para"]}>
+                  Multer used for file uploads to allow the user to upload their exported message
+                  data from WhatsApp/Messenger
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <div className={styles["discord-bot"]}>
           <h3>Wordle Solver (Chrome Extension)</h3>
           <p>
