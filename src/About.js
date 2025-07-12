@@ -29,7 +29,7 @@ function About() {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1ZviiqAL75c3J1PGWOXqWthNaOYcJMUeI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1e3UbKICv5rK7szRUPCjN5Eq9tVj4ok5m/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="alink"
