@@ -12,7 +12,7 @@ function About() {
           </p>
           <p className="job-title">Software Developer</p>
           <p className="location">
-            Toronto, Canada - <span className="email">ahmedkeshkaap@gmail.com</span>
+            Ottawa, Canada - <span className="email">ahmedkeshkaap@gmail.com</span>
           </p>
         </div>
         <div className="intro-paragraph">
@@ -29,7 +29,7 @@ function About() {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1oPyCkNSyGhHBSheRQjnskdTwgmw2BuQS/view?usp=sharing"
+            href="https://drive.google.com/file/d/18MzAfV7c2CbmbV3RyC608kOzbaV_VG_c/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="alink"

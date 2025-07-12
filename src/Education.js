@@ -16,14 +16,14 @@ function Education() {
                 </h1>
                 <h1 className={styles.uni}>University of Ottawa | Ottawa, Canada</h1>
                 <p>
-                  Currently progressing through the Master's and expected to graduate in May 2026
+                  <b>Grade:</b> A
                 </p>
                 <p className={styles.courses}>
                   <span>Relevant Courses:</span> Foundations and Applications of Machine Learning,
                   Essential Concepts in Data Science, System Optimization and Management
                 </p>
               </div>
-              <p className={styles["date-para"]}>September 2024 - May 2026</p>
+              <p className={styles["date-para"]}>September 2024 - Dec 2025</p>
             </div>
           </div>
         </div>
@@ -34,7 +34,9 @@ function Education() {
               <div>
                 <h1 className={styles.bsc}>BSc (HONS) Computer Science</h1>
                 <h1 className={styles.uni}>University of Portsmouth | Portsmouth, UK</h1>
-                <p>Grade: Upper Second Class Honours (B+ equivalent)</p>
+                <p>
+                  <b>Grade:</b> UK 2:1 – equivalent to a Canadian A- or B+
+                </p>
                 <p className={styles.courses}>
                   <span>Relevant Courses:</span> Web Programming, Enterprise Web Programming, Data
                   Structures & Algorithms, Practical Data Analytics & Mining, Distributed Systems &
