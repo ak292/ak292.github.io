@@ -35,7 +35,7 @@ function Education() {
                 <h1 className={styles.bsc}>BSc (HONS) Computer Science</h1>
                 <h1 className={styles.uni}>University of Portsmouth | Portsmouth, UK</h1>
                 <p>
-                  <b>Grade:</b> UK 2:1 – equivalent to a Canadian A- or B+
+                  <b>Grade:</b> UK 2:1
                 </p>
                 <p className={styles.courses}>
                   <span>Relevant Courses:</span> Web Programming, Enterprise Web Programming, Data
