@@ -17,7 +17,7 @@ function About() {
         </div>
         <div className="intro-paragraph">
           I'm a Computer Science graduate who is passionate about all things related to Web
-          Development and Machine Learning.
+          Development and Machine Learning
         </div>
         <div className="buttons-container">
           <div className="icons-container">
@@ -29,7 +29,7 @@ function About() {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1LRyn1nsrL4fikmQywzwkuAtFvgrJujZy/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_oN9afXkWrC10SafFdZijHe5QBuH8Xcy/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="alink"

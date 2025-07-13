@@ -23,7 +23,7 @@ function Education() {
                   Essential Concepts in Data Science, System Optimization and Management
                 </p>
               </div>
-              <p className={styles["date-para"]}>September 2024 - Dec 2025</p>
+              <p className={styles["date-para"]}>September 2024 - December 2025</p>
             </div>
           </div>
         </div>

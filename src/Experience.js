@@ -13,8 +13,8 @@ function Experience() {
             <div className={styles["container-three"]}>
               <ul className={styles["ul-text"]}>
                 <li>
-                  Worked as a freelance web developer to support a startup in Norway with setting up
-                  and optimizing their website using WebFlow
+                  Worked as a Web Developer to support a startup in Norway with setting up and
+                  optimizing their website using WebFlow
                 </li>
                 <li>
                   Developed custom JavaScript functionality to integrate advanced search and filter
@@ -33,16 +33,17 @@ function Experience() {
             <div className={styles["container-three"]}>
               <ul className={styles["ul-text"]}>
                 <li>
-                  Developed software at IBM in a team focused on automating business logic in
-                  applications
+                  Developed software at IBM in a team focused on automating business logic using
+                  IBM’s Operational Decision Manager (ODM)
                 </li>
                 <li>
-                  Made use of IBMs Operational Decision Manager tool to create business rules using
-                  IBMs Business Action Language and a Java XOM (Execution Object Model)
+                  Created and deployed business rules with IBM Business Action Language and a
+                  Java-based Execution Object Model (XOM)
                 </li>
                 <li>
-                  Passed a test to achieve the IBM Operational Decision Manager Standard V8.9
-                  Business Analyst certification through Credly
+                  Successfully earned the IBM ODM Business Analyst Standard V8.9 certification
+                  through Credly as part of the project, validating expertise in business rule
+                  implementation & decision automation
                 </li>
               </ul>
               <p className={styles["date-para"]}>August 2023 - October 2023</p>
