@@ -14,7 +14,7 @@ function Education() {
                 <h1 className={styles.bsc}>
                   Master of Interdisciplinary Applied Artificial Intelligence
                 </h1>
-                <h1 className={styles.uni}>University of Ottawa | Ottawa, Canada</h1>
+                <h1 className={styles.uni}>University of Ottawa | Ottawa, Ontario</h1>
                 <p>
                   <b>Grade:</b> A
                 </p>

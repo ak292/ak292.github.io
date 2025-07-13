@@ -12,7 +12,7 @@ function About() {
           </p>
           <p className="job-title">Software Developer</p>
           <p className="location">
-            Ottawa, Canada - <span className="email">ahmedkeshkaap@gmail.com</span>
+            Ottawa, Ontario - <span className="email">ahmedkeshkaap@gmail.com</span>
           </p>
         </div>
         <div className="intro-paragraph">
